@@ -36,7 +36,7 @@ public class ApplicationTest {
         mockMvc.perform(get("/products/{id}", -1L)) //
         .andExpect(status().isOk()) //
         .andExpect(jsonPath("$.name", is("test product 1"))) //
-        .andExpect(jsonPath("$.productAttribues[*]", hasSize(1)));
+        .andExpect(jsonPath("$.productAttributes[*]", hasSize(1)));
     }
 
 }

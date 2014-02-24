@@ -36,6 +36,7 @@ public class ProductAttribute implements Identifiable<Long>, Serializable {
     @Column(name = "name")
     private String name;
 
+    @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "product_id", referencedColumnName = "id", nullable = false)
     private Product product;

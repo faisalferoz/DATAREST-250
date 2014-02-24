@@ -14,7 +14,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>${project.build.sourceEncoding}</project.reporting.outputEncoding>
         <source.level>1.7</source.level>
-        <spring.data.rest.verion>2.0.0.RC1</spring.data.rest.verion>
+        <spring.data.rest.verion>2.0.0.BUILD-SNAPSHOT</spring.data.rest.verion>
     </properties>
 
     <dependencies>
